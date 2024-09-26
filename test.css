@@ -1,0 +1,105 @@
+/* Styles pour le body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Styles pour le conteneur du formulaire */
+#form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Styles pour les champs de texte */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 275px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Styles pour la case à cocher pour afficher le mot de passe */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Conteneur pour la case à cocher "Afficher le mot de passe" */
+#show-password-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Styles pour le bouton de submit */
+input[type="submit"] {
+    background-color: #e8427c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le bouton de redirection */
+a {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le texte de décompte */
+#countdown {
+    font-weight: bold;
+    color: #e8427c;
+}
+
+/* Masquer le formulaire si requis */
+.hidden {
+    display: none;
+}
+
+/* Centrer et styliser le message de décompte */
+#countdown-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}

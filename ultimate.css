@@ -1,0 +1,272 @@
+html {
+    box-sizing:border-box
+  }
+  html *,
+  html *:before,
+  html *:after {
+    box-sizing:inherit
+  }
+  @font-face {
+    font-family:'BasierCircle';
+    src:url(/assets/basiercircle-regular-webfont-2031529ec2a443f617599a9f6996582fb6efe859f5759c73082eb77bd0bc7aef.eot);
+    src:url(/assets/basiercircle-regular-webfont-2031529ec2a443f617599a9f6996582fb6efe859f5759c73082eb77bd0bc7aef.eot?#iefix) format("embedded-opentype"),
+    url(/assets/basiercircle-regular-webfont-87feb0372de9fd03703c557784686f891119516c396e7242c2bccc5912b87fec.woff2) format("woff2"),
+    url(/assets/basiercircle-regular-webfont-a5b8e37a2977210f1abacefe57f3ef5f3abc9165925ae2a6bdebb1d48077bd01.woff) format("woff"),
+    url(/assets/basiercircle-regular-webfont-f01216207c2a302dd8c1adc8f9c83f94e31434398a14f30f869848c34d0815de.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal
+  }
+  @font-face {
+    font-family:'BasierCircle';
+    src:url(/assets/basiercircle-medium-webfont-4296acf9a2d76ce78aad76befa0114ce5df293e835fce0ca647c7932f67264a1.eot);
+    src:url(/assets/basiercircle-medium-webfont-4296acf9a2d76ce78aad76befa0114ce5df293e835fce0ca647c7932f67264a1.eot?#iefix) format("embedded-opentype"),
+    url(/assets/basiercircle-medium-webfont-876a02c1884c785273eda3c36675640c9317200e44b6ec751d18b3096fe5ddf6.woff2) format("woff2"),
+    url(/assets/basiercircle-medium-webfont-b69a4a1dba79cfe3c2f970125dcec08189b44e0c3e05be3162064031efbb1323.woff) format("woff"),
+    url(/assets/basiercircle-medium-webfont-bb9ba6d45e262924e14a0ce20a3a2f0bb86ede889cdda21549037e7b6a82970f.ttf) format("truetype");
+    font-weight:500;
+    font-style:normal
+  }
+  @font-face {
+    font-family:'BasierCircle';
+    src:url(/assets/basiercircle-semibold-webfont-1ddb1c4c658fc72e3acb5837a9c0696ae7f6e8aa144193cda78060f174b1bc8b.eot);
+    src:url(/assets/basiercircle-semibold-webfont-1ddb1c4c658fc72e3acb5837a9c0696ae7f6e8aa144193cda78060f174b1bc8b.eot?#iefix) format("embedded-opentype"),
+    url(/assets/basiercircle-semibold-webfont-9d557512d7d2001417a14bf063ab6d968bf7d6448bdb08437ca80c63d3062fbc.woff2) format("woff2"),
+    url(/assets/basiercircle-semibold-webfont-342da85f518ad751513b36bf71bf929dd8900bef0e736ca4ec22e5cafdffb9e2.woff) format("woff"),
+    url(/assets/basiercircle-semibold-webfont-c0ce532524ecf58aebc13503c3b514f80d80fcebe1719b7d37766cd06e01fcf6.ttf) format("truetype");
+    font-weight:600;
+    font-style:normal
+  }
+  /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */html {
+    font-family:sans-serif;
+    line-height:1.15;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+  }
+  body {
+    margin:0
+  }
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section {
+    display:block
+  }
+  h1 {
+    font-size:2em;
+    margin:0.67em 0
+  }
+  figcaption,
+  figure {
+    display:block
+  }
+  figure {
+    margin:1em 40px
+  }
+  hr {
+    box-sizing:content-box;
+    height:0;
+    overflow:visible
+  }
+  main {
+    display:block
+  }
+  pre {
+    font-family:monospace, monospace;
+    font-size:1em
+  }
+  a {
+    background-color:transparent;
+    -webkit-text-decoration-skip:objects
+  }
+  a:active,
+  a:hover {
+    outline-width:0
+  }
+  abbr[title] {
+    border-bottom:none;
+    text-decoration:underline;
+    text-decoration:underline dotted
+  }
+  b,
+  strong {
+    font-weight:inherit
+  }
+  b,
+  strong {
+    font-weight:bolder
+  }
+  code,
+  kbd,
+  samp {
+    font-family:monospace, monospace;
+    font-size:1em
+  }
+  dfn {
+    font-style:italic
+  }
+  mark {
+    background-color:#ff0;
+    color:#000
+  }
+  small {
+    font-size:80%
+  }
+  sub,
+  sup {
+    font-size:75%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline
+  }
+  sub {
+    bottom:-0.25em
+  }
+  sup {
+    top:-0.5em
+  }
+  img {
+    border-style:none
+  }
+  svg:not(:root) {
+    overflow:hidden
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family:sans-serif;
+    font-size:100%;
+    line-height:1.15;
+    margin:0
+  }
+  button {
+    overflow:visible
+  }
+  button,
+  select {
+    text-transform:none
+  }
+  button,
+  html [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance:button
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style:none;
+    padding:0
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline:1px dotted ButtonText
+  }
+  input {
+    overflow:visible
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing:border-box;
+    padding:0
+  }
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height:auto
+  }
+  [type="search"] {
+    -webkit-appearance:textfield;
+    outline-offset:-2px
+  }
+  [type="search"]::-webkit-search-cancel-button,
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance:none
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance:button;
+    font:inherit
+  }
+  fieldset {
+    border:1px solid #c0c0c0;
+    margin:0 2px;
+    padding:0.35em 0.625em 0.75em
+  }
+  legend {
+    box-sizing:border-box;
+    display:table;
+    max-width:100%;
+    padding:0;
+    color:inherit;
+    white-space:normal
+  }
+  progress {
+    display:inline-block;
+    vertical-align:baseline
+  }
+  textarea {
+    overflow:auto
+  }
+  details {
+    display:block
+  }
+  summary {
+    display:list-item
+  }
+  menu {
+    display:block
+  }
+  canvas {
+    display:inline-block
+  }
+  template {
+    display:none
+  }
+  [hidden] {
+    display:none
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  dl,
+  dd,
+  ol,
+  ul,
+  form,
+  fieldset,
+  legend,
+  figure,
+  table,
+  th,
+  td,
+  caption,
+  hr {
+    margin:0;
+    padding:0
+  }
+  abbr[title],
+  dfn[title] {
+    cursor:help
+  }
+  u,
+  ins {
+    text-decoration:none
+  }
+  ins {
+    border-bottom:1px solid
+  }
+  h1,
+  h2,
+    

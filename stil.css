@@ -1,0 +1,87 @@
+
+
+
+
+/* Styles pour le body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Styles pour les labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Styles pour les champs de texte */
+input[type="text"],
+input[type="password"] {
+    width: 275px ;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+input[type="email"]{
+    width: 275px ;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Styles pour le bouton de submit */
+input[type="submit"] {
+    background-color: #e8427c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le bouton de redirection */
+a {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+}
+a:hover {
+    background-color: #0056b3;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Styles pour la case à cocher */
+input[type="checkbox"] {
+    padding:  100px;
+}
