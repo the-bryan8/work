@@ -20,7 +20,7 @@
 
             <input type="submit" name="login" value="Se connecter">
         </form>
-        <p>Pas encore de compte ? <a href="traitement.php">Inscrivez-vous ici</a></p>
+        <p>Pas encore de compte ? <a href="sign.php">Inscrivez-vous ici</a></p>
     </div>
 
     <?php
@@ -55,7 +55,7 @@
 
             // Redirection vers la page index.html
             echo "<p>Connexion réussie ! Vous allez être redirigé vers la page d'accueil.</p>";
-            echo "<meta http-equiv='refresh' content='2;url=index.html'>";
+            echo "<meta http-equiv='refresh' content='2;url=exit.php'>";
         } else {
             // Erreur de connexion
             echo "<p>Erreur : Email/Pseudo ou mot de passe incorrect.</p>";

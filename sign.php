@@ -39,7 +39,7 @@
 
             <input type="submit" name="ok" value="S'inscrire">
         </form>
-        <p>j'ai un compte               <a href="test2.php">me connecté(e)</a></p>
+        <p>j'ai un compte               <a href="conex.php">me connecté(e)</a></p>
     </div>
 
 <?php
@@ -104,7 +104,7 @@ if (isset($_POST['ok'])) {
               
                 // Ajout du script pour afficher le décompte de 30 secondes
                 echo "<p>Vous serez redirigé vers la page d'accueil dans <span id='countdown'>30</span> secondes.</p>";
-                echo "<meta http-equiv='refresh' content='30;url=index.html'>";
+                echo "<meta http-equiv='refresh' content='30;url=exit.php'>";
             }
         } catch (PDOException $e) {
             echo "Erreur lors de l'insertion : " . $e->getMessage();
